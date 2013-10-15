@@ -1,0 +1,143 @@
+body {
+  color: #06181e;
+  background: #1f5700;
+}
+
+#wrap {
+  background: url('../images/south_bg.gif?1') no-repeat top center;
+}
+
+.blog-info {
+  background: url('../images/south_seperator.gif?1') repeat-x center center;
+}
+
+.blog-info div {
+  background: #ACBE13;
+  display: inline;
+  padding: 0 8px;
+}
+
+a {
+  color: #E4FF00;
+  text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  color: #e4ff00;
+}
+#langmenu {
+      color: #fdfdfd;
+}
+#mainmenu {
+      color: #544e3c;
+}
+
+#langmenu li a, #mainmenu li a {
+  color: #fdfdfd;
+font-weight: normal;
+}
+
+#langmenu li a:hover, #mainmenu li a:hover {
+  text-decoration: underline;
+}
+
+#langmenu li a.active, #mainmenu li a.active {
+  color: #e4ff00;
+}
+
+#mainmenu ul.submenu {
+  border-right:1px solid #fdfdfd;
+	}
+
+#content {
+background: #acbe13 url("../images/south_cont_bg.gif?1") no-repeat right top;
+}
+
+.highlight {
+  color: #E4FF00;
+}
+
+.comment-number {
+  color: #E4FF00;
+  border-right: 1px solid #1F5700;
+}
+
+.textbox {
+  border: 1px solid #968248;
+  background: #c5d916;
+  color: #06181e;
+}
+
+.submit {
+  border: none;
+  background: none;
+  color: #E4FF00;
+}
+
+#edicy a {
+  color: #E0C31a;
+}
+#search {
+text-align: right;
+padding: 0 152px 15px 0;
+}
+#search input {
+border: none; 
+background: #ACBE13; 
+width: 115px; 
+height: 19px;
+color: #000000;
+padding-top:4px;
+padding-left: 3px;
+}
+#footer {
+    color: #e2c46a;
+}
+#searchcontainer-close a{
+  color: black;
+}
+.gs-result a {
+  color: #1F5700;
+}
+
+/* article tags */
+.article-tags { margin-top: 20px; font-size: 14px; min-height: 1em; margin-bottom: 10px; }
+.edy-tag-input { outline: none; }
+.article-tag-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../images/tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.tagged-list-header {
+    padding: 0;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.header-tag-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url('../images/header-tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-top: -1px;
+    margin-right: 15px;
+}
+.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.tagged-list-header  a {border: none; text-decoration: none;}
+.tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
+.article-tags .edy-taglist { margin-left: 25px; }
+

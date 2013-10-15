@@ -1,0 +1,20 @@
+.clearfix { zoom: 1; }
+#wrap {
+    width: 1000px
+}
+#leftside {
+    width: 410px
+}
+#container {
+    width: 414px
+}
+#search {
+    display: inline;
+    float: right;
+}
+.textbox {
+    width: 265px;
+}
+img {
+    width: expression(this.width > 354 ? 354: true);
+}

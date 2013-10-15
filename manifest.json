@@ -1,0 +1,165 @@
+{
+  "preview_small": "http://static.edicy.com/designs/previews/munich-south_small.jpg",
+  "preview_medium": "http://static.edicy.com/designs/previews/munich-south_medium.png",
+  "description": "Munich South",
+  "assets": [
+    {
+      "file": "images/south_bg.gif",
+      "kind": "images",
+      "filename": "south_bg.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "images/south_bg_medium.gif",
+      "kind": "images",
+      "filename": "south_bg_medium.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "images/south_cont_bg.gif",
+      "kind": "images",
+      "filename": "south_cont_bg.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "images/south_cont_bg_medium.gif",
+      "kind": "images",
+      "filename": "south_cont_bg_medium.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "images/south_seperator.gif",
+      "kind": "images",
+      "filename": "south_seperator.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "images/south_seperator_medium.gif",
+      "kind": "images",
+      "filename": "south_seperator_medium.gif",
+      "content_type": "image/gif"
+    },
+    {
+      "file": "stylesheets/south_style.css",
+      "kind": "stylesheets",
+      "filename": "south_style.css",
+      "content_type": "text/css"
+    },
+    {
+      "file": "stylesheets/layout.css",
+      "kind": "stylesheets",
+      "filename": "layout.css",
+      "content_type": "text/css"
+    },
+    {
+      "file": "stylesheets/style_ie.css",
+      "kind": "stylesheets",
+      "filename": "style_ie.css",
+      "content_type": "text/css"
+    },
+    {
+      "file": "images/header-tag.png",
+      "kind": "images",
+      "filename": "header-tag.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "javascripts/modernizr.js",
+      "kind": "javascripts",
+      "filename": "modernizr.js",
+      "content_type": "text/javascript"
+    },
+    {
+      "file": "images/tag.png",
+      "kind": "images",
+      "filename": "tag.png",
+      "content_type": "image/png"
+    },
+    {
+      "file": "images/tag.svg",
+      "kind": "images",
+      "filename": "tag.svg",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "file": "images/header-tag.svg",
+      "kind": "images",
+      "filename": "header-tag.svg",
+      "content_type": "image/svg+xml"
+    }
+  ],
+  "name": "Munich (South)",
+  "author": "Tajo Oja",
+  "layouts": [
+    {
+      "file": "layouts/common_page.tpl",
+      "title": "Common page",
+      "component": false,
+      "layout_name": "page_default",
+      "content_type": "page"
+    },
+    {
+      "file": "layouts/blog_.tpl",
+      "title": "Blog ",
+      "component": false,
+      "layout_name": "blog_front",
+      "content_type": "blog"
+    },
+    {
+      "file": "layouts/blog_article.tpl",
+      "title": "Blog Article",
+      "component": false,
+      "layout_name": "blog_article",
+      "content_type": "blog_article"
+    },
+    {
+      "file": "components/langmenu.tpl",
+      "title": "Langmenu",
+      "component": true,
+      "layout_name": "",
+      "content_type": "component"
+    },
+    {
+      "file": "components/mainmenu.tpl",
+      "title": "Mainmenu",
+      "component": true,
+      "layout_name": "",
+      "content_type": "component"
+    },
+    {
+      "file": "components/siteheader.tpl",
+      "title": "SiteHeader",
+      "component": true,
+      "layout_name": "",
+      "content_type": "component"
+    },
+    {
+      "file": "layouts/front_page.tpl",
+      "title": "Front page",
+      "component": false,
+      "layout_name": "page_front",
+      "content_type": "page"
+    },
+    {
+      "file": "components/js.tpl",
+      "title": "JS",
+      "component": true,
+      "layout_name": "",
+      "content_type": "component"
+    },
+    {
+      "file": "components/mobilemenu.tpl",
+      "title": "Mobilemenu",
+      "component": true,
+      "layout_name": "Mobilemenu",
+      "content_type": "component"
+    },
+    {
+      "file": "components/search.tpl",
+      "title": "Search",
+      "component": true,
+      "layout_name": "",
+      "content_type": "component"
+    }
+  ]
+}
