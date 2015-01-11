@@ -28,9 +28,9 @@
          <h1>{% editable article.title plain="true" %}</h1>
                 {{ article.created_at | format_date:"long" }} - <span class="highlight">{{ article.author.name }}</span><br /><br />
             
-         <div class="excerpt">{% editable article.excerpt %}</div>
+         <div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
                <div style="padding-top: 10px;">
-                   {% editable article.body %}
+                   <div data-search-indexing-allowed="true">{% editable article.body %}</div>
                    <div class="clearer"></div>
                
                    {% if editmode %}
