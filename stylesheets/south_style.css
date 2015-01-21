@@ -110,10 +110,24 @@ padding: 0 152px 15px 0;
 border: none; 
 background: #ACBE13; 
 width: 115px; 
-height: 19px;
 color: #000000;
-padding-top:4px;
-padding-left: 3px;
+padding: 6px;
+}
+#search input::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#search input:-ms-input-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#search input::-moz-placeholder {
+  color: inherit;
+  opacity: .5;
+}
+#search input:-moz-placeholder {
+  color: inherit;
+  opacity: .5;
 }
 #footer {
     color: #e2c46a;
